@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="icon shortcut" href="./img/icon.png">
+    <title>D_I_bank</title>
+</head>
+
+<body>
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <nav class="menu">
+        <a href="./index.html"><img src="./img/icon.png" alt="loggotip"></a>
+        <ul class="menu__list">
+          <li class="menu__list_item"><a href="" class="menu__list_links partner_active" id="emptyLink">Продукты нашего
+              партнера</a></li>
+          <li class="menu__list_item"><a href="./converter.html" class="menu__list_links">Конвертер валют</a></li>
+        </ul>
+        <button class="btn__fon"></button>
+      </nav>
+    </div>
+    <nav class="menu__partner">
+      <ul class="menu__partner_list">
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/iEWCKh5Nv8" class="menu__partner_links">Дебетовая карта</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/1ytI7K3YDhq" class="menu__partner_links">Кредитная карта</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/8V6x1o3d07I" class="menu__partner_links">Инвестиции</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/5TKCMIFunBr" class="menu__partner_links">Счет для бизнеса</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/75otJKRoCN5" class="menu__partner_links">Автокредит</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/62iOC3GYNf6" class="menu__partner_links">Кредит наличными</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="main">
+  <section class="description">
+    <div class="container">
+      <h2 class="title">
+        Нам доверяют более 100&#160;млн клиентов
+      </h2>
+      <div class="description__bank">
+        <div class="description__bank_presentation">
+          <h3 class="subtitle">
+            D_I_bank обладатель пяти наград премии &#171;Банк года&#187; Банки.ру
+          </h3>
+          <p class="text">D_I_bank был признан лучшим в&#160;следующих категориях: &#171;Забота о&#160;клиенте&#187;,
+            &#171;Digital-банк года&#187;, &#171;Инвестиционная компания года&#187;, &#171;Инвестиционный продукт года&#187;, &#171;Народный
+            рейтинг страховых компаний&#187;.</p>
+        </div>
+        <img src="./img/baner.png" alt="baner" class="baner">
+      </div>
+    </div>
+  </section>
+  <section class="promo">
+    <img src="./img/promo.png" alt="promo" class="promo__image">
+  </section>
+
+  <section class="widget">
+    <div class="container">
+      <div class="widget__inner">
+        <div class="widget__usd">
+          <div class="widget__currency">USD&#160;&#8212; Доллар США</div>
+          <h1 class="widget__exchange" data-value="USD">--.--</h1>
+        </div>
+        <div class="widget__eur">
+          <div class="widget__currency">EUR&#160;&#8212; Евро</div>
+          <h1 class="widget__exchange" data-value="EUR">--.--</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <h2 class="title">
+        Продукты и&#160;услуги
+      </h2>
+
+      <div class="cards">
+        <article class="cards__item">
+          <div class="cards__item_detalis" id="cardsDetalis">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Дебетовая карта
+              </h3>
+              <p class="text">Зарабатывайте деньги, а&#160;не&#160;бонусы. Закажите дебетовую карту и&#160;получайте
+                кэшбэк в&#160;любых
+                категориях</p>
+            </div>
+            <img src="./img/debet_card.png" alt="debit_card">
+            <button class="detalis" data-target-hide="cardsDetalis" data-target-show="cardsApply">Подробнее</button>
+          </div>
+          <div class="cards__item_apply" id="cardsApply">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Дебетовая карта
+              </h3>
+            </div>
+            <form action="">
+              <nav class="cards__form">
+                <input type="text" placeholder="Фамилия">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Отчество">
+                <input type="date" id="dateBirth">
+                <input type="tel" placeholder="Телефон" maxlength="12">
+              </nav>
+            </form>
+            <div class="notification" id="textNotif"></div>
+            <button class="apply" id="btnNotif">Оформить</button>
+          </div>
+        </article>
+        <article class="cards__item">
+          <div class="cards__item_detalis" id="cardsDetalisCredit">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Кредитная карта
+              </h3>
+              <p class="text">С&#160;бесплатными переводами на&#160;карты любых банков до&#160;50 000 ₽ в&#160;месяц и
+                кредитным лимитом до&#160;1 000 000 ₽</p>
+            </div>
+            <img src="./img/kredit_card.png" alt="kredit_card">
+            <button class="detalis" data-target-hide="cardsDetalisCredit"
+              data-target-show="cardsApplyCredit">Подробнее</button>
+          </div>
+          <div class="cards__item_apply" id="cardsApplyCredit">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Кредитная карта
+              </h3>
+            </div>
+            <form action="">
+              <nav class="cards__form">
+                <input type="text" placeholder="Фамилия">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Отчество">
+                <input type="date" id="dateBirthCredit">
+                <input type="tel" placeholder="Телефон" maxlength="12">
+              </nav>
+            </form>
+            <div class="notification" id="textNotifCredit"></div>
+            <button class="apply" id="btnNotifCredit">Оформить</button>
+          </div>
+        </article>
+        </article>
+
+        <article class="cards__item">
+          <div class="cards__item_detalis" id="cardsDetalisInvest">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Инвестиции
+              </h3>
+              <p class="text">Даем 50 000 ₽ на&#160;первые инвестиции</p>
+            </div>
+            <img src="./img/invest_card.png" alt="invest_card">
+            <button class="detalis" data-target-hide="cardsDetalisInvest"
+              data-target-show="cardsApplyInvest">Подробнее</button>
+          </div>
+          <div class="cards__item_apply" id="cardsApplyInvest">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Инвестиции
+              </h3>
+            </div>
+            <form action="">
+              <nav class="cards__form">
+                <input type="text" placeholder="Фамилия">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Отчество">
+                <input type="date" id="dateBirthInvest">
+                <input type="tel" placeholder="Телефон" maxlength="12">
+              </nav>
+            </form>
+            <div class="notification" id="textNotifInvest"></div>
+            <button class="apply" id="btnNotifInvest">Оформить</button>
+          </div>
+        </article>
+
+        <article class="cards__item">
+          <div class="cards__item_detalis" id="cardsDetalisBussines">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Счет для бизнеса
+              </h3>
+              <p class="text">Открытие счета за&#160;0 ₽. 2 месяца обслуживания за&#160;0 ₽. Бесплатная онлайн-бухгалтерия</p>
+            </div>
+            <img src="./img/biznes_card.png" alt="bussines_card">
+            <button class="detalis" data-target-hide="cardsDetalisBussines"
+              data-target-show="cardsApplyBussines">Подробнее</button>
+          </div>
+          <div class="cards__item_apply" id="cardsApplyBussines">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Счет для бизнеса
+              </h3>
+            </div>
+            <form action="">
+              <nav class="cards__form">
+                <input type="text" placeholder="Фамилия">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Отчество">
+                <input type="date" id="dateBirthBussines">
+                <input type="tel" placeholder="Телефон" maxlength="12">
+              </nav>
+            </form>
+            <div class="notification" id="textNotifBussines"></div>
+            <button class="apply" id="btnNotifBussines">Оформить</button>
+          </div>
+        </article>
+
+        <article class="cards__item">
+          <div class="cards__item_detalis" id="cardsDetalisAuto">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Автокредит
+              </h3>
+              <p class="text">Автокредит по&#160;паспорту. Удобный расчет кредита на&#160;онлайн-калькуляторе</p>
+            </div>
+            <img src="./img/auto_card.png" alt="auto_card">
+            <button class="detalis" data-target-hide="cardsDetalisAuto"
+              data-target-show="cardsApplyAuto">Подробнее</button>
+          </div>
+          <div class="cards__item_apply" id="cardsApplyAuto">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Автокредит
+              </h3>
+            </div>
+            <form action="">
+              <nav class="cards__form">
+                <input type="text" placeholder="Фамилия">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Отчество">
+                <input type="date" id="dateBirthAuto">
+                <input type="tel" placeholder="Телефон" maxlength="12">
+              </nav>
+            </form>
+            <div class="notification" id="textNotifAuto"></div>
+            <button class="apply" id="btnNotifAuto">Оформить</button>
+          </div>
+        </article>
+
+        <article class="cards__item">
+          <div class="cards__item_detalis" id="cardsDetalisNal">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Кредит наличными
+              </h3>
+              <p class="text">Получите кредит наличными на&#160;любые цели без справок о&#160;доходах и&#160;поручителей. Нужен только
+                паспорт</p>
+            </div>
+            <img src="./img/nal_card.png" alt="nal_card">
+            <button class="detalis" data-target-hide="cardsDetalisNal"
+              data-target-show="cardsApplyNal">Подробнее</button>
+          </div>
+          <div class="cards__item_apply" id="cardsApplyNal">
+            <div class="cards__description">
+              <h3 class="subtitle">
+                Кредит наличными
+              </h3>
+            </div>
+            <form action="">
+              <nav class="cards__form">
+                <input type="text" placeholder="Фамилия">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Отчество">
+                <input type="date" id="dateBirthNal">
+                <input type="tel" placeholder="Телефон" maxlength="12">
+              </nav>
+            </form>
+            <div class="notification" id="textNotifNal"></div>
+            <button class="apply" id="btnNotifNal">Оформить</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <nav class="contacts">
+                <a href="./../index.html"><img src="./img/icon.png" alt="loggotip"></a>
+                <div class="contacts__license"> &#169;&#160;2024, АО&#160;&#171;D_I_bank&#187;, официальный&#160;сайт, универсальная&#160;лицензия ЦБ&#160;РФ&#160;№ 2673</div>
+                <div class="contacts__tel">8 908 674 26 00</div>
+            </nav>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="./js/index.bundle.js"></script>
+</html>

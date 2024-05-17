@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
+    <link rel="stylesheet" href="./css/converter.css" />
+    <link rel="icon shortcut" href="./img/icon.png">
+    <title>D_I_bank</title>
+</head>
+
+<body>
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <nav class="menu">
+        <a href="./index.html"><img src="./img/icon.png" alt="loggotip"></a>
+        <ul class="menu__list">
+          <li class="menu__list_item"><a href="" class="menu__list_links partner_active" id="emptyLink">Продукты нашего
+              партнера</a></li>
+          <li class="menu__list_item"><a href="./converter.html" class="menu__list_links">Конвертер валют</a></li>
+        </ul>
+        <button class="btn__fon"></button>
+      </nav>
+    </div>
+    <nav class="menu__partner">
+      <ul class="menu__partner_list">
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/iEWCKh5Nv8" class="menu__partner_links">Дебетовая карта</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/1ytI7K3YDhq" class="menu__partner_links">Кредитная карта</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/8V6x1o3d07I" class="menu__partner_links">Инвестиции</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/5TKCMIFunBr" class="menu__partner_links">Счет для бизнеса</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/75otJKRoCN5" class="menu__partner_links">Автокредит</a>
+        </li>
+        <li class="menu__partner_item">
+          <a href="https://www.tinkoff.ru/baf/62iOC3GYNf6" class="menu__partner_links">Кредит наличными</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="main">
+  <section class="description">
+    <div class="container">
+      <h2 class="title">
+        Нам доверяют более 100&#160;млн клиентов
+      </h2>
+      <div class="description__bank">
+        <div class="description__bank_presentation">
+          <h3 class="subtitle">
+            D_I_bank&#160;&#8212; забота о&#160;вашем будущем каждый день
+          </h3>
+          <p class="text">Наша цель&#160;&#8212; помогать вам достигать ваших финансовых целей, обеспечивая стабильность и
+            уверенность в&#160;завтрашнем&#160;дне. Полагайтесь на&#160;нас&#160;&#8212; D_I_bank, ваш путь к&#160;финансовому успеху!</p>
+        </div>
+        <img src="./img/baner.png" alt="baner" class="baner">
+      </div>
+    </div>
+  </section>
+
+  <section class="converter">
+    <div class="container">
+      <h2 class="title">Конвертор валют</h2>
+      <div class="converter_inner">
+        <div class="converter__item">
+          <input id="input" type="number" autofocus />
+          <select id="selectInput" class="converter__select_to">
+                <option value="USD" selected>USD&#160;&#8212; Доллар США</option>
+                <option value="EUR">EUR&#160;&#8212; Евро</option>
+                <option value="AUD">AUD&#160;&#8212; Австралийский доллар</option>
+                <option value="AMD">AMD&#160;&#8212; Армянский драм</option>
+                <option value="BYN">BYN&#160;&#8212; Белорусский рубль</option>
+                <option value="AED">AED&#160;&#8212; Дирхам ОАЭ</option>
+                <option value="CNY">CNY&#160;&#8212; Китайский юань</option>
+                <option value="BGN">BGN&#160;&#8212; Болгарский лев</option>
+                <option value="BRL">BRL&#160;&#8212; Бразильский реал</option>
+                <option value="GBP">GBP&#160;&#8212; Фунт стерлингов</option>
+                <option value="RUB">RUB&#160;&#8212; Российский рубль</option>
+          </select>
+        </div>
+        <img src="./img/arrow.png" alt="arrow" class="arrow">
+        <div class="converter__item">
+          <input id="result" type="number" class="input_to" disabled />
+          <select id="select" class="converter__select_be">
+            <option value="RUB" selected>RUB&#160;&#8212; Российский рубль</option>
+            <option value="EUR">EUR&#160;&#8212; Евро</option>
+            <option value="AUD">AUD&#160;&#8212; Австралийский доллар</option>
+            <option value="AMD">AMD&#160;&#8212; Армянский драм</option>
+            <option value="BYN">BYN&#160;&#8212; Белорусский рубль</option>
+            <option value="AED">AED&#160;&#8212; Дирхам ОАЭ</option>
+            <option value="CNY">CNY&#160;&#8212; Китайский юань</option>
+            <option value="BGN">BGN&#160;&#8212; Болгарский лев</option>
+            <option value="BRL">BRL&#160;&#8212; Бразильский реал</option>
+            <option value="GBP">GBP&#160;&#8212; Фунт стерлингов</option>
+            <option value="USD">USD&#160;&#8212; Доллар США</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="description">
+    <div class="container">
+      <h2 class="title">
+        По&#160;итогам 2024 года D_I_bank был признан лучшим в&#160;следующих категориях:
+      </h2>
+      <ul class="converter__ul">
+        <li>&#171;Забота о&#160;клиенте&#187;.&#160;В&#160;этой номинации оценивалась работа банка в&#160;сервисах Банки.ру: активность на&#160;&#171;Форуме&#187;
+          и&#160;в&#160;&#171;Народном рейтинге&#187;, работа представителя банка в&#160;сервисе &#171;Вопрос&#160;&#8212; ответ&#187;, комментарии и&#160;отзывы
+          пользователей. Именно команда поддержки Тинькофф обеспечила самую высокую оперативность и&#160;качество решения
+          проблем пользователей Банки.ру.</li>
+        <li>&#171;Digital-банк&#160;года&#187;.&#160;Это новая номинация премии, которая появилась в&#160;ответ на&#160;меняющиеся запросы клиентов
+          к&#160;современным стандартам качества финансовых услуг.&#160;Победитель определялся путем открытого голосования.</li>
+        <li>&#171;Инвестиционная компания года&#187;&#160;&#8212; Тинькофф Инвестиции.&#160;Экспертное жюри премии отметили растущие показатели
+          бизнеса, долю рынка и&#160;успешные запуски новых продуктов в&#160;течение 2021 года.</li>
+        <li>&#171;Инвестиционный продукт года&#187;&#160;&#8212; биржевые паевые фонды УК&#160;Тинькофф Капитал. В&#160;2021 году число пайщиков
+          фондов УК&#160;Тинькофф Капитал (без учета пользователей Инвесткопилки) увеличилось почти в&#160;4 раза&#160;&#8212; до&#160;более чем
+          1&#160;млн человек.</li>
+        <li>&#171;Народный рейтинг страховых компаний&#187;&#160;&#8212; лучшей компанией стало Тинькофф Страхование. Лидера рейтинга
+          определили по&#160;совокупному уровню оценок клиентов компании на&#160;Банки.ру.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <nav class="contacts">
+                <a href="./../index.html"><img src="./img/icon.png" alt="loggotip"></a>
+                <div class="contacts__license"> &#169;&#160;2024, АО&#160;&#171;D_I_bank&#187;, официальный&#160;сайт, универсальная&#160;лицензия ЦБ&#160;РФ&#160;№ 2673</div>
+                <div class="contacts__tel">8 908 674 26 00</div>
+            </nav>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+<script src="./js/converter.bundle.js"></script>
+
+</html>
